@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    background-color: rgb(161, 161, 161);
+}
+
+header{
+    background-color: rgba(95, 94, 94, 0.76);
+}
+
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+
+span#burger{
+    background-color: rgb(48, 47, 47);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burger:hover{
+    background-color: rgb(206, 201, 201);
+    color: black;
+}
+
+menu{
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    border-top: 2px solid rgba(80, 76, 76, 0.795);
+}
+
+menu > ul > li > a:hover{
+    background-color: rgb(100, 98, 98);
+}
+
+main{
+    width: 90vw;
+    background-color: rgb(209, 207, 207);
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+
+article > h2{
+    padding-bottom: 20px;
+}
+
+article > p{
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
